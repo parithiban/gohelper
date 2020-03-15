@@ -1,9 +1,9 @@
 # GO HELPER
 
-[![Build Status](https://travis-ci.org/parithibang/e-work-book.svg?branch=master)](https://travis-ci.org/parithibang/e-work-book)
+[![Build Status](https://travis-ci.org/parithiban/gohelper.svg?branch=master)](https://travis-ci.org/parithiban/gohelper)
 [![Go Report Card](https://goreportcard.com/badge/github.com/parithiban/gohelper)](https://goreportcard.com/report/github.com/parithiban/gohelper)
-[![GitHub contributors](https://img.shields.io/github/contributors/parithibang/e-work-book.svg?style=plastic&color=blue)](https://GitHub.com/parithibang/e-work-book/graphs/contributors/)
-![Last Commit](https://img.shields.io/github/last-commit/parithibang/e-work-book.svg?style=plastic)
+[![GitHub contributors](https://img.shields.io/github/contributors/parithiban/gohelper.svg?style=plastic&color=blue)](https://GitHub.com/parithiban/gohelper/graphs/contributors/)
+![Last Commit](https://img.shields.io/github/last-commit/parithiban/gohelper.svg?style=plastic)
 
 This is an helper package. This has a lot of helper functions that would reduce rewriting many of the commonly used methods.
 
