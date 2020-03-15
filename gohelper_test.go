@@ -2,7 +2,7 @@ package gohelper
 
 import "testing"
 
-func Test_SliceContains(t *testing.T) {
+func Test_FindInSlice(t *testing.T) {
 	stringSlice := []string{"Arthur", "Alexander", "Asher", "Anouar", "Avner"}
 	intSlice := []int{1, 2, 3, 4, 5}
 	floatSlice := []float64{1.2, 3.4, 5.6, 7.8, 9.0}
@@ -34,7 +34,7 @@ func Test_SliceContains(t *testing.T) {
 		})
 	}
 }
-func Test_StructContains(t *testing.T) {
+func Test_FindInStruct(t *testing.T) {
 
 	type Person struct {
 		Name string
@@ -122,7 +122,7 @@ func Test_StructContains(t *testing.T) {
 
 	for _, tc := range tt {
 		t.Run(tc.name, func(t *testing.T) {
-			contains := FindInSlice(tc.structs, tc.value, tc.key)
+			contains := FindInStruct(tc.structs, tc.value, tc.key)
 
 			if contains != tc.expected {
 				t.Fatalf("Output should be %t, but got %t", tc.expected, contains)
