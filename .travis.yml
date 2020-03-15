@@ -19,3 +19,7 @@ matrix:
         - make security-check
         - make cyclo-check
         - make test
+
+after_success:
+  - make test-coverage
+  - bash <(curl -s https://codecov.io/bash)

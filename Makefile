@@ -49,7 +49,7 @@ build: ## Build the helper
 test: ## Run the unit tests
 	go test ./... -coverprofile=coverage.out
 
-.PHONY: test-cov
+.PHONY: test-coverage
 test-cov: test ## Run the unit tests with coverage
 	go tool cover -func=coverage.out
 	go tool cover -html=coverage.out
