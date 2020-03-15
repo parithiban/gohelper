@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/parithiban/gohelper.svg?branch=master)](https://travis-ci.org/parithiban/gohelper)
 [![Go Report Card](https://goreportcard.com/badge/github.com/parithiban/gohelper)](https://goreportcard.com/report/github.com/parithiban/gohelper)
+[![codecov.io](https://codecov.io/github/parithiban/gohelper/coverage.svg?branch=master)](https://codecov.io/github/parithiban/gohelper?branch=master)
 [![GitHub contributors](https://img.shields.io/github/contributors/parithiban/gohelper.svg?style=plastic&color=blue)](https://GitHub.com/parithiban/gohelper/graphs/contributors/)
 ![Last Commit](https://img.shields.io/github/last-commit/parithiban/gohelper.svg?style=plastic)
 
